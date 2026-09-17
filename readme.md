@@ -43,7 +43,7 @@
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> About Me
 
 ```yaml
-name: Vishal
+name: Vishal Attri
 role: Cloud & DevOps Engineer
 location: India 🇮🇳
 focus:
@@ -75,6 +75,6 @@ fun_fact: "I automate things so I can be lazy 😴"
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,50:1B4B6B,100:0B1120&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=30&fontColor=7DD3FC&animation=twinkling&fontAlignY=70" width="100%"/>
 
-**⭐ From [Vishal](https://github.com/YOUR_USERNAME) — Automating everything, one commit at a time ⚙️**
+**⭐ From [Vishal](https://github.com/Attrivishal) — Automating everything, one commit at a time ⚙️**
 
 </div>
