@@ -57,19 +57,6 @@ currently_learning: [GitOps, Service Mesh, Observability]
 fun_fact: "I automate things so I can be lazy 😴"
 ```
 
----
-
-<!-- ===================== PROFILE TRAFFIC ===================== -->
-## 👀 Profile Traffic
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile%20Views&color=7DD3FC&style=for-the-badge&labelColor=0B1120" alt="Profile Views" />
-<img src="https://img.shields.io/github/followers/YOUR_USERNAME?label=Followers&style=for-the-badge&color=5EEAD4&labelColor=0B1120&logo=github&logoColor=white" alt="Followers" />
-
-</div>
-
----
 
 <!-- ===================== CONNECT WITH ME ===================== -->
 ## 🤝 Connect With Me
