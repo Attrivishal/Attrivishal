@@ -6,6 +6,9 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2500&pause=600&color=7DD3FC&center=true&vCenter=true&multiline=true&width=850&height=160&lines=%E2%98%81%EF%B8%8F+Architecting+Cloud+Infrastructure+on+AWS;%F0%9F%8F%97%EF%B8%8F+Infrastructure+as+Code+with+Terraform;%F0%9F%90%B3+Containerizing+with+Docker+%26+Kubernetes;%E2%9A%99%EF%B8%8F+Building+CI%2FCD+Pipelines+that+Ship;%F0%9F%9A%80+Automating+Everything%2C+One+Commit+at+a+Time" alt="Typing SVG" />
 </a>
 
+
+
+
 <!-- ===================== CLEAN ASCII TERMINAL ===================== -->
 
 ```
