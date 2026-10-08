@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dark-v2.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./light-v2.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./dark-v2.svg">
   <img src="./dark-v2.svg" alt="Vishal Attri — developer profile terminal banner" width="100%">
 </picture>
 
@@ -14,8 +14,8 @@
 <a href="https://www.linkedin.com/in/vishal-attri">
   <img src="https://img.shields.io/badge/LinkedIn-Vishal%20Attri-0F172A?style=for-the-badge&logo=linkedin&logoColor=22D3EE"/>
 </a>
-<a href="mailto:vishalattri@example.com">
-  <img src="https://img.shields.io/badge/Email-vishalattri@example.com-0F172A?style=for-the-badge&logo=gmail&logoColor=EA4335"/>
+<a href="mailto:vishalattri196@gmail.com">
+  <img src="https://img.shields.io/badge/Email-vishalattri196@gmail.com-0F172A?style=for-the-badge&logo=gmail&logoColor=EA4335"/>
 </a>
 
 </div>
@@ -53,7 +53,7 @@ A collection of cloud and DevOps engineering work.
 |---|---|
 | 💻 GitHub | [Attrivishal](https://github.com/Attrivishal) |
 | 💼 LinkedIn | [vishal-attri](https://www.linkedin.com/in/vishal-attri) |
-| 📧 Email | [vishalattri@example.com](mailto:vishalattri196@gmail.com) |
+| 📧 Email | [vishalattri196@gmail.com](mailto:vishalattri196@gmail.com) |
 
 </div>
 
