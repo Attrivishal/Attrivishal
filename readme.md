@@ -11,7 +11,7 @@
 <a href="https://github.com/Attrivishal">
   <img src="https://img.shields.io/badge/GitHub-Attrivishal-0F172A?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-<a href="https://www.linkedin.com/in/vishal-attri">
+<a href="https://www.linkedin.com/in/vishalattri">
   <img src="https://img.shields.io/badge/LinkedIn-Vishal%20Attri-0F172A?style=for-the-badge&logo=linkedin&logoColor=22D3EE"/>
 </a>
 <a href="mailto:vishalattri196@gmail.com">
