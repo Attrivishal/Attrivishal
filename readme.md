@@ -1,14 +1,10 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./dark-v2.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./dark-v2.svg">
-  <img src="./dark-v2.svg" alt="Vishal Attri — developer profile terminal banner" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./dark-v3.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./dark-v3.svg">
+  <img src="./dark-v3.svg" alt="Vishal Attri — profile banner with automation pipeline" width="100%">
 </picture>
-
-<br/>
-
-<img src="./robot.svg" width="100%" alt="Automation pipeline scene"/>
 
 <br/>
 
