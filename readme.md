@@ -8,6 +8,10 @@
 
 <br/>
 
+<img src="./robot.svg" width="100%" alt="Automation pipeline scene"/>
+
+<br/>
+
 <a href="https://github.com/Attrivishal">
   <img src="https://img.shields.io/badge/GitHub-Attrivishal-0F172A?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
