@@ -1,0 +1,270 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610"
+     role="img" aria-label="Vishal Attri — developer profile terminal banner (dark theme)"
+     font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+  <defs>
+    <!-- Background gradients -->
+    <radialGradient id="d-bg1" cx="20%" cy="15%" r="70%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="d-bg2" cx="85%" cy="85%" r="75%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="d-bg3" cx="55%" cy="110%" r="60%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity=".14"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Accent stroke gradient -->
+    <linearGradient id="d-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+
+    <!-- Portrait gradient (used for ascii fill) -->
+    <linearGradient id="d-ascii" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E0E7FF"/>
+      <stop offset="50%" stop-color="#A5F3FC"/>
+      <stop offset="100%" stop-color="#6EE7B7"/>
+    </linearGradient>
+
+    <!-- Soft glow filter -->
+    <filter id="d-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Scanlines pattern -->
+    <pattern id="d-scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#22D3EE" opacity=".06"/>
+    </pattern>
+
+    <!-- Grid pattern -->
+    <pattern id="d-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M0 0H32M0 0V32" stroke="#1E293B" stroke-width=".5" opacity=".5" fill="none"/>
+    </pattern>
+
+    <!-- Glass panel gradient -->
+    <linearGradient id="d-glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F172A" stop-opacity=".65"/>
+      <stop offset="100%" stop-color="#0B1220" stop-opacity=".45"/>
+    </linearGradient>
+
+    <!-- Clip path for portrait card -->
+    <clipPath id="d-clip">
+      <rect x="48" y="130" width="410" height="410" rx="14"/>
+    </clipPath>
+
+    <!-- Text-mask for typing effect -->
+    <clipPath id="d-type">
+      <rect x="0" y="0" width="0" height="24">
+        <animate attributeName="width" from="0" to="380" dur="1.6s" begin="1.4s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- Outer background -->
+  <rect width="1180" height="610" rx="24" fill="#030712"/>
+  <rect width="1180" height="610" rx="24" fill="url(#d-grid)" opacity=".35"/>
+  <rect width="1180" height="610" rx="24" fill="url(#d-bg1)"/>
+  <rect width="1180" height="610" rx="24" fill="url(#d-bg2)"/>
+  <rect width="1180" height="610" rx="24" fill="url(#d-bg3)"/>
+
+  <!-- Outer border (shimmer) -->
+  <rect x="1" y="1" width="1178" height="608" rx="23" fill="none" stroke="url(#d-accent)" stroke-width="1.2" opacity=".55">
+    <animate attributeName="opacity" values=".35;.75;.35" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Top chrome bar -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur=".6s" fill="freeze"/>
+    <rect x="24" y="24" width="1132" height="44" rx="12" fill="#0B1220" fill-opacity=".8" stroke="#1E293B"/>
+    <circle cx="52" cy="46" r="6" fill="#EF4444"/>
+    <circle cx="74" cy="46" r="6" fill="#F59E0B"/>
+    <circle cx="96" cy="46" r="6" fill="#10B981"/>
+    <text x="590" y="51" fill="#94A3B8" font-size="12" text-anchor="middle">
+      vishal@cloud-devops:~
+    </text>
+    <text x="1120" y="51" fill="#10B981" font-size="11" text-anchor="end" filter="url(#d-glow)">
+      [ ONLINE ]
+    </text>
+  </g>
+
+  <!-- ================= LEFT PANEL ================= -->
+  <!-- Card -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur=".7s" begin=".2s" fill="freeze"/>
+    <rect x="48" y="130" width="410" height="410" rx="14" fill="url(#d-glass)" stroke="#22D3EE" stroke-opacity=".35"/>
+    <rect x="48" y="130" width="410" height="410" rx="14" fill="url(#d-scan)"/>
+    <text x="72" y="160" fill="#22D3EE" font-size="11" letter-spacing="3">VISUAL.MAP</text>
+    <line x1="72" y1="170" x2="434" y2="170" stroke="#22D3EE" stroke-opacity=".25"/>
+  </g>
+
+  <!-- ASCII portrait: stylized "VK" monogram rendered as dots -->
+  <g clip-path="url(#d-clip)" fill="url(#d-ascii)" font-size="9" font-weight="700">
+    <!-- Rows are revealed one at a time -->
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin=".6s" fill="freeze"/>
+      <text x="150" y="210">··················································································</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin=".75s" fill="freeze"/>
+      <text x="150" y="222">····························        ██╗   ██╗ ██╗  ██╗        ····················</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin=".9s" fill="freeze"/>
+      <text x="150" y="234">····························        ██║   ██║ ██║ ██╔╝        ····················</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="1.05s" fill="freeze"/>
+      <text x="150" y="246">····························        ██║   ██║ ██████╔╝        ····················</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="1.2s" fill="freeze"/>
+      <text x="150" y="258">····························        ╚██╗ ██╔╝ ██╔═██╗        ····················</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="1.35s" fill="freeze"/>
+      <text x="150" y="270">····························         ╚████╔╝  ██║  ██╗       ····················</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="1.5s" fill="freeze"/>
+      <text x="150" y="282">····························          ╚═══╝   ╚═╝  ╚═╝       ····················</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="1.65s" fill="freeze"/>
+      <text x="150" y="294">··················································································</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="1.8s" fill="freeze"/>
+      <text x="150" y="306">·····        ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░        ······</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="1.95s" fill="freeze"/>
+      <text x="150" y="318">····        ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒        ····</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="2.1s" fill="freeze"/>
+      <text x="150" y="330">···        ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓        ···</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="2.25s" fill="freeze"/>
+      <text x="150" y="342">··        ████████████████████████████████████████████████████████████████        ··</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="2.4s" fill="freeze"/>
+      <text x="150" y="354">··        ████████████████████████████████████████████████████████████████        ··</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="2.55s" fill="freeze"/>
+      <text x="150" y="366">··        ████████████████████████████████████████████████████████████████        ··</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="2.7s" fill="freeze"/>
+      <text x="150" y="378">···        ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓        ···</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="2.85s" fill="freeze"/>
+      <text x="150" y="390">····        ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒        ····</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="3.0s" fill="freeze"/>
+      <text x="150" y="402">·····        ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░        ······</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".2s" begin="3.15s" fill="freeze"/>
+      <text x="150" y="414">··················································································</text>
+    </g>
+  </g>
+
+  <!-- Scanline sweep across portrait -->
+  <rect x="48" y="130" width="410" height="24" fill="#22D3EE" opacity=".08">
+    <animate attributeName="y" from="130" to="516" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Left footer: prompt -->
+  <text x="72" y="572" fill="#22D3EE" font-size="12" filter="url(#d-glow)">~/profile $</text>
+  <text x="168" y="572" fill="#E2E8F0" font-size="12">build --ship</text>
+  <rect x="288" y="562" width="9" height="14" fill="#22D3EE">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ================= RIGHT PANEL ================= -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur=".7s" begin="1s" fill="freeze"/>
+    <rect x="480" y="130" width="650" height="410" rx="14" fill="url(#d-glass)" stroke="#22D3EE" stroke-opacity=".35"/>
+    <rect x="480" y="130" width="650" height="410" rx="14" fill="url(#d-scan)"/>
+    <text x="508" y="160" fill="#22D3EE" font-size="11" letter-spacing="3">SYSTEM.INFO</text>
+    <line x1="508" y1="170" x2="1104" y2="170" stroke="#22D3EE" stroke-opacity=".25"/>
+    <text x="508" y="192" fill="#64748B" font-size="11">vishal@cloud-devops:~$ ./profile.sh</text>
+  </g>
+
+  <!-- Name -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur=".7s" begin="1.6s" fill="freeze"/>
+    <text x="508" y="248" fill="#F8FAFC" font-size="42" font-weight="700" letter-spacing="1">Vishal Attri</text>
+  </g>
+
+  <!-- Headline typing -->
+  <g clip-path="url(#d-type)" transform="translate(508 272)">
+    <text x="0" y="0" fill="#22D3EE" font-size="16" font-weight="600">
+      Creative Developer · AI Workflows · Cinematic Web
+    </text>
+  </g>
+  <rect x="888" y="258" width="9" height="16" fill="#22D3EE" opacity="0">
+    <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" begin="3s"/>
+  </rect>
+
+  <!-- Info rows -->
+  <g font-size="13">
+    <!-- Row: NAME -->
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".3s" begin="3.0s" fill="freeze"/>
+      <text x="508" y="318" fill="#64748B" letter-spacing="1">NAME</text>
+      <text x="620" y="318" fill="#94A3B8">:</text>
+      <text x="640" y="318" fill="#E2E8F0">Vishal Attri</text>
+    </g>
+    <!-- Row: HANDLE -->
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".3s" begin="3.15s" fill="freeze"/>
+      <text x="508" y="342" fill="#64748B" letter-spacing="1">HANDLE</text>
+      <text x="620" y="342" fill="#94A3B8">:</text>
+      <text x="640" y="342" fill="#E2E8F0">@Attrivishal</text>
+    </g>
+    <!-- Row: FOCUS (neutral placeholder) -->
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".3s" begin="3.3s" fill="freeze"/>
+      <text x="508" y="366" fill="#64748B" letter-spacing="1">FOCUS</text>
+      <text x="620" y="366" fill="#94A3B8">:</text>
+      <text x="640" y="366" fill="#A5F3FC">Cloud · DevOps · AWS · Terraform</text>
+    </g>
+    <!-- Row: BUILDING (placeholder) -->
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".3s" begin="3.45s" fill="freeze"/>
+      <text x="508" y="390" fill="#64748B" letter-spacing="1">BUILDING</text>
+      <text x="620" y="390" fill="#94A3B8">:</text>
+      <text x="640" y="390" fill="#6EE7B7">Cloud and DevOps Projects</text>
+    </g>
+    <!-- Row: WRITING -->
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".3s" begin="3.6s" fill="freeze"/>
+      <text x="508" y="414" fill="#64748B" letter-spacing="1">WRITING</text>
+      <text x="620" y="414" fill="#94A3B8">:</text>
+      <text x="640" y="414" fill="#E2E8F0">github.com/Attrivishal</text>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line x1="508" y1="436" x2="1104" y2="436" stroke="#1E293B"/>
+  <text x="508" y="456" fill="#22D3EE" font-size="11" letter-spacing="3">CHANNELS</text>
+
+  <!-- Channel pills -->
+  <g font-size="11" font-weight="600">
+    <!-- GitHub -->
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".4s" begin="3.9s" fill="freeze"/>
+      <rect x="508" y="466" width="118" height="26" rx="13" fill="#0B1220" stroke="#22D3EE" stroke-opacity=".5"/>
+      <circle cx="522" cy="479" r="3" fill="#22D3EE"/>
+      <text x="534" y="483" fill="#E2E8F0">GitHub</text>
+    </g>
+    <!-- LinkedIn -->
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".4s" begin="4.05s" fill="freeze"/>
+      <rect x="634" y="466" width="118" height="26" rx="13" fill="#0B1220" stroke="#7C3AED" stroke-opacity=".5"/>
+      <circle cx="648" cy="479" r="3" fill="#7C3AED"/>
+      <text x="660" y="483" fill="#E2E8F0">LinkedIn</text>
+    </g>
+    <!-- Email -->
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur=".4s" begin="4.2s" fill="freeze"/>
+      <rect x="760" y="466" width="344" height="26" rx="13" fill="#0B1220" stroke="#10B981" stroke-opacity=".5"/>
+      <circle cx="774" cy="479" r="3" fill="#10B981"/>
+      <text x="786" y="483" fill="#E2E8F0">vishalattri196@gmail.com</text>
+    </g>
+
+  </g>
+  <!-- Footer -->
+  <text x="590" y="588" fill="#475569" font-size="11" text-anchor="middle">
+    © Vishal Attri  ·  dark.svg
+  </text>
+  <text x="1120" y="588" fill="#475569" font-size="10" text-anchor="end">v1.0</text>
+</svg>
