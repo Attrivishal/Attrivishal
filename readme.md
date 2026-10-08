@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="./photo.jpg" width="180" style="border-radius: 50%; border: 3px solid #22D3EE; box-shadow: 0 0 20px rgba(34,211,238,0.4);" alt="Vishal Attri"/>
+
+<br/><br/>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dark-v2.svg">
   <source media="(prefers-color-scheme: light)" srcset="./dark-v2.svg">
