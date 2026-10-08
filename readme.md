@@ -49,7 +49,7 @@ A collection of cloud and DevOps engineering work.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Attrivishal/Attrivishal/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 
 </div>
 
