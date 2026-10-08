@@ -55,20 +55,6 @@ A collection of cloud and DevOps engineering work.
 
 ---
 
-## 🔗 Connect
-
-<div align="center">
-
-| Platform | Link |
-|---|---|
-| 💻 GitHub | [Attrivishal](https://github.com/Attrivishal) |
-| 💼 LinkedIn | [vishal-attri](https://www.linkedin.com/in/vishal-attri) |
-| 📧 Email | [vishalattri196@gmail.com](mailto:vishalattri196@gmail.com) |
-
-</div>
-
----
-
 <div align="center">
 
 ### ❤️ Thanks for the support!
